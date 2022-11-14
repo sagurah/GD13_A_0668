@@ -27,7 +27,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_nama"
-                astyle="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
@@ -44,7 +44,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_npm"
-                astyle="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
@@ -61,14 +61,14 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_fakultas"
-                astyle="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
                 android:hint="Fakultas">
 
-                <com.google.android.material.textfield.TextInputEditText
+                <AutoCompleteTextView
                     android:id="@+id/ed_fakultas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -79,14 +79,14 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_prodi"
-                astyle="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
                 android:hint="Prodi">
 
-                <com.google.android.material.textfield.TextInputEditText
+                <AutoCompleteTextView
                     android:id="@+id/ed_prodi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
